@@ -7,9 +7,10 @@ public class TimeConvertor {
         convert(2);
     }
 
-    private static void convert(float minutes) {
+    public static void convert(float minutes) {
         float seconds;
-        System.out.println(minutes + " minutes equals " + (seconds = minutes * 60) + " seconds");
+//        System.out.println(minutes + " minutes equals " + (seconds = minutes * 60) + " seconds");
+        System.out.println(seconds = minutes * 60);
 
     }
 }
